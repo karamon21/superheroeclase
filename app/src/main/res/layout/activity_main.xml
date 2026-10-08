@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,21 +8,116 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Superhero 1 -->
     <TextView
-        android:id="@+id/label_name"
-        android:layout_width="match_parent"
+        android:id="@+id/label_name1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/label_name"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/input_name1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="John"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_name1" />
 
     <TextView
-        android:id="@+id/input_name"
-        android:layout_width="match_parent"
+        android:id="@+id/label_surname1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:text="@string/label_surname"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="John"
-        app:layout_constraintTop_toBottomOf="@id/label_name"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_name1" />
 
+    <TextView
+        android:id="@+id/input_surname1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Doe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_surname1" />
+
+    <!-- Superhero 2 -->
+    <TextView
+        android:id="@+id/label_name2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_surname1" />
+
+    <TextView
+        android:id="@+id/input_name2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Peter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_name2" />
+
+    <TextView
+        android:id="@+id/label_surname2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label_surname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_name2" />
+
+    <TextView
+        android:id="@+id/input_surname2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Parker"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_surname2" />
+
+    <!-- Superhero 3 -->
+    <TextView
+        android:id="@+id/label_name3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_surname2" />
+
+    <TextView
+        android:id="@+id/input_name3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bruce"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_name3" />
+
+    <TextView
+        android:id="@+id/label_surname3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label_surname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_name3" />
+
+    <TextView
+        android:id="@+id/input_surname3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Wayne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_surname3"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

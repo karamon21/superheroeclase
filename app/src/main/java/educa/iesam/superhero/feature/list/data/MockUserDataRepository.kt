@@ -1,6 +1,6 @@
-package edu.iesam.superhero.feature.list.data
+package educa.iesam.superhero.feature.list.data
 
-import edu.iesam.superhero.feature.list.data.local.UserMemLocalDataSource
+import educa.iesam.superhero.feature.list.data.local.UserMemLocalDataSource
 import edu.iesam.superhero.feature.list.domain.User
 import edu.iesam.superhero.feature.list.domain.UserRepository
 

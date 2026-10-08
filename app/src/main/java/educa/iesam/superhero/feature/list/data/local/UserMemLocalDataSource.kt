@@ -1,4 +1,4 @@
-package edu.iesam.superhero.feature.list.data.local
+package educa.iesam.superhero.feature.list.data.local
 
 import edu.iesam.superhero.feature.list.domain.User
 
